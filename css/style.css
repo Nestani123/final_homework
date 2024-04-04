@@ -62,7 +62,21 @@ planet information
 .planet_name{
 font-size: 40px;
 text-align: center;
+margin-top: 98px;
 }
 .planet_description{
     font-family: spartan;
+    margin-top: 16px;
+    text-align: center;
+}
+.wikipedia_address{
+    display: flex;
+    justify-content: center;
+    font-family: Spartan;
+    color: #FFFFFF;
+    gap: 4px;
+    margin-top: 32px;
+}
+.wikipedia_address address{
+    text-decoration: underline;
 }
