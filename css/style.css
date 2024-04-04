@@ -1,22 +1,68 @@
+.main_page{
+    min-width: 375px;
+    width: 100%;
+    height: auto;
+    background-color: #070724;
+    background-image: url("../assets/images/background-stars.svg");
+}
+h1,h2,p, li{
+    color: white;
+}
+h1, h2{
+    font-family: Antonio;
+}
+p, li{
+font-family: Spartan;
+}
+/*
+header
+*/
+.website_name{
+    font-size: 28px;
+    color: white;
+}
 header{
-    padding: 10px;
+    padding: 16px 24px 16px 16px;
     display: flex;
     justify-content: space-between;
 }
-.website_name{
-    color: white;
+.main-nav{
+    display: none;
+}
+.planet-list{
+    display: flex;
 }
 .website_list{
     display: flex;
     justify-content: space-around;
-    border: 1px solid gray;
-    padding: 15px;
+    border: 1px solid  #FFFFFF;
+    padding: 20px 24px 20px 24px;
 }
+
+/*
+pictures of planets
+*/
+.medium-planet{
+    display: none;
+}
+.larg-planet{
+    display: none;
+}
+
+/*
+planet information
+*/
+
 .particular_planet{
     display: flex;
     justify-content: center;
-    width: 25%;
-    height: 100px;
-    border-radius: 50%;
-    background-color: blueviolet;
+    margin-top: 95px;
+
+}
+.planet_name{
+font-size: 40px;
+text-align: center;
+}
+.planet_description{
+    font-family: spartan;
 }

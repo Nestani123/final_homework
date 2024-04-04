@@ -1,17 +1,29 @@
+@font-face {
+    font-family: Antonio;
+    src: url("../assets/fonts/Antonio/Antonio-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Spartan;
+    src: url("../assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.main_page{
-    width: 100%;
-    height: auto;
-    background-color: blue;
-}
+
 ul, ol{
     list-style-type: none;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: unset;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+button{
+    background: none;
+    border: none;
 }

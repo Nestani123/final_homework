@@ -4,15 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🪐 Planets</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
     <div class="main_page">
       <header>
         <h2 class="website_name">THE PLANETS</h2>
-        <img class="burger_menu" src="assets/images/icon-burger.svg" alt="burger icon for menu">
+        <nav class="main-nav">          
+          <ul class="planet-list">
+            <li><a href="#">MERCURY</a></li>
+            <li><a href="#">VENUS</a></li>
+            <li><a href="#">EARTH</a></li>
+            <li><a href="#">MARS</a></li>
+            <li><a href="#">JUPITER</a></li>
+            <li><a href="#">SATURN</a></li>
+            <li><a href="#">URANUS</a></li>
+            <li><a href="#">NEPTUNE</a></li>
+          </ul>
+          </nav>
+          <button class="burger-btn"><img class="burger_menu" src="assets/images/icon-burger.svg" alt="burger icon for menu"></button>
+
     </header>
     <section class="website_Structure">
           <ul class="website_list">
@@ -23,7 +36,11 @@
         </section>
 
       <main>
-        <div class="particular_planet"></div>
+        <div class="particular_planet">
+          <img class="small-planet" src="assets/images/Mercury_sml.png" alt="mercury">
+          <img class="medium-planet" src="assets/images/mercury_md.png" alt="mercury">
+          <img class="larg-planet" src="assets/images/Mercury_lrg.png" alt="mercury">
+        </div>
         <div class="planet_info">
           <h1 class="planet_name">MERCURY</h1>
           <p class="planet_description">
