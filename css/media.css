@@ -1,23 +1,37 @@
 @media all and (min-width: 768px){
-    header .burger-btn{
+    .burger-btn{
         display: none;
     }
-    .main-nav{
-        display: block;
+    .planet-list{
+        display: flex;
+        margin-left: 8%;
+        gap: 33px;
+
     }
+
     .small-planet{
         display: none;
     }
     .medium-planet{
         display: block;
     }
-    .planet_name{
-        font-size: 48px;
-        text-align: left;
-        }
+    .website_list{
+        display: none;
+    }
+
         .particular_planet{
             margin-top: 146px;
         }
+        .first-hr{
+            display: none;
+        }
+        .main-menu{
+            justify-content: center;
+        }
+        .options{
+            display: flex;
+        }
+
 }
 @media all and (min-width: 1440px){
     .medium-planet{
