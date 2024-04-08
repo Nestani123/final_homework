@@ -1,45 +1,125 @@
 @media all and (min-width: 768px){
+    .headerAndNav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     .burger-btn{
         display: none;
     }
-    .planet-list{
+    .headMenu{
         display: flex;
-        margin-left: 8%;
-        gap: 33px;
-
+        justify-content: center;
+        align-items: center;
     }
-
-    .small-planet{
+    .menu-links{
+        display: flex;
+        margin-top: 39px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+    .mainHr{
+        background-color: #FFF;
+        opacity: .2;
+        mix-blend-mode: normal;
+    }
+    .headOptions{
         display: none;
     }
-    .medium-planet{
-        display: block;
+    .headInfo{
+        display: flex;
+        flex-direction: column;
     }
-    .website_list{
+    .option{
+        border: 1px solid rgba(255, 255, 255, .2);
+        width: 281px;
+        height: 40px;
+        display: flex;
+    }
+    .number{
+        display: flex;
+        color: #FFF;
+        opacity: .5;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 700;
+        margin-right: 17px;
+        margin-left: 20px;
+        letter-spacing: 1.92857px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    h1{
+        opacity: 1;
+        text-align: left;
+        font-size: 12px;
+        line-height: 25px;
+        font-weight: 700;
+    }
+    .rectangle{
         display: none;
     }
+    .middlePart{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .planet{
+        justify-content: center;
+        width: 270px;
+        height: 270px;
+    }.options{
+        display: flex;
+    }
+    .textAndOption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .textAndSource{
+        align-items: normal;
+        margin-left: 39px;
+    }
+    .planet_description{
+        text-align: left;
+        margin-left: 0;
+    }
+    .info{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 22px;
+    }
+    .infocontainer{
+        width: 164px;
+        height: 88px;
+        border: 1px solid #ffffff;
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+    }
+    .descrip{
 
-        .particular_planet{
-            margin-top: 146px;
-        }
-        .first-hr{
-            display: none;
-        }
-        .main-menu{
-            justify-content: center;
-        }
-        .options{
-            display: flex;
-        }
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .numb_descrip{
+
+        font-size: 25px;
+        margin-right: 15px
+    }
+
+
+    
+    
+    
 
 }
 @media all and (min-width: 1440px){
-    .medium-planet{
-        display: none;
-    }
-    .larg-planet{
-        display: block;
-    }
+
     .planet_name{
         font-size: 80px;
 

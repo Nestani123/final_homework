@@ -9,14 +9,11 @@
     <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
-    <div class="main-menu">
-      <h2 class="website_name">THE PLANETS</h2>
+    <div class="headerAndNav">
+      <h1 class="website_name">THE PLANETS</h1>
       <button class="burger-btn"><img class="burger_menu" src="assets/images/icon-burger.svg" alt="burger icon for menu"></button>
-
-    </div>
-      <header>
-        <nav class="main-nav">          
-          <ul class="planet-list">
+      <div class="headMenu">
+        <ul class="menu-links">
             <li><a href="#">MERCURY</a></li>
             <li><a href="#">VENUS</a></li>
             <li><a href="#">EARTH</a></li>
@@ -26,27 +23,68 @@
             <li><a href="#">URANUS</a></li>
             <li><a href="#">NEPTUNE</a></li>
           </ul>
-          </nav>
-    </header>
-    <section class="website_Structure">
-      <hr class="first-hr"> 
-          <ul class="website_list">
-            <li><a href="#">OVERVIEW</a></li>
-            <li><a href="#">STRUCTURE</a></li>
-            <li><a href="#">SURFACE</a></li>
-          </ul>
-          <hr class="second-hr"> 
-        </section>
+          </div>
+    </div>
+  </div>
 
-      <main>
-        <div class="particular_planet">
-          <img class="small-planet" src="assets/images/Mercury_sml.png" alt="mercury">
-          <img class="medium-planet" src="assets/images/mercury_md.png" alt="mercury">
-          <img class="larg-planet" src="assets/images/Mercury_lrg.png" alt="mercury">
-        </div>
-        <div class="text-and-option">
-        <div class="planet_info">
-          <h1 class="planet_name">MERCURY</h1>
+  <hr class="mainHr">
+<div class="headOptions">
+  <div class="headInfo">
+    <div class="option">
+      <p class="number">01</p>
+            <h1>OVERVIEW</h1>
+            <div class="rectangle">
+            </div>
+    </div>
+<div class="option">
+  <p class="number">02</p>
+              <h1><span>Internal</span>STRUCTURE</h1>
+              <div class="rectangle"></div>
+</div>
+<div class="option">
+  <p class="number">03</p>
+  <h1>SURFACE<span>Geology</span></h1>
+  <div class="rectangle"></div>
+</div>
+
+  </div>
+</div>
+    <hr class="mainHr"> 
+
+      <main class="middlePart">
+          <img class="planet" src="assets/images/Mercury.png" alt="mercury">
+        <div class="options">
+          <div class="headInfo">
+            <div class="option">
+            <p class="number">01</p>
+            <h1>OVERVIEW</h1>
+            <div class="rectangle">
+            </div>
+          </div>
+
+          <div class="option">
+
+              <p class="number">02</p>
+              <h1><span>Internal</span>" Structure"</h1>
+              <div class="rectangle"></div>
+            </div>
+
+            <div class="option">
+                <p class="number">03</p>
+                <h1>"Surface" <span>Geology</span></h1>
+                <div class="rectangle"></div>
+              </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+      </div>
+
+      <div class="textAndOption">
+        <div class="textAndSource">
+          <h1 class="planetName">
+            MERCURY
+          </h1>
           <p class="planet_description">
             Mercury is the smallest planet in the Solar System and the closest
             to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
@@ -55,47 +93,39 @@
             Earth.
           </p>
           <div class="wikipedia_address">
-          <span class="link_address">Source: </span>
-          <address><a class="planet_address" href="#">Wikipedia </a></address>
-          <img src="assets/images/icon-source.svg" alt="">
+            <span class="link_address">Source: </span>
+            <address><a class="planet_address" href="#">Wikipedia </a></address>
+            <img src="assets/images/icon-source.svg" alt="">
+          </div>
         </div>
-      </div>
-        <div class="options">
-          <ul>
-            <li class="option-item"><a href="#">01     OVERVIEW</a></li>
-            <li class="option-item"><a href="#">02     Internal Structure</a></li>
-            <li class="option-item"><a href="#">03     Surface Geology</a></li>
-          </ul>
+
+
+      <div class="info">
+        <div class="infocontainer">
+          <p class="descrip">ROTATION TIME</p>
+          <p class="numb_descrip">58.6 DAYS</p>        
         </div>
-      </div>
+        <div class="infocontainer">
+          <p class="descrip">REVOLUTION TIME</p>
+          <p class="numb_descrip">87.97 DAYS</p>    
+        </div>
+        <div class="infocontainer">
+          <p class="descrip">RADIUS</p>
+          <p class="numb_descrip">2,437.7 KM</p>    
+        </div>
+        <div class="infocontainer">
+          <p class="descrip">AVERAGE TEMP.</p>
+          <p class="numb_descrip">430° C</p>   
+        </div>
+
       </main>
 
-      <article class="statistics">
-        <div class="rotation">
-          <div class="box">
-          <span class="descrip">ROTATION TIME</span>
-          <span class="numb_descrip">58.6 DAYS</span>
-        </div>
-        </div>
-        <div class="revolution">
-          <div class="box">
-          <span class="descrip">REVOLUTION TIME</span>
-          <span class="numb_descrip">87.97 DAYS</span>
-        </div>
-        </div>
-        <div class="radius">
-          <div class="box">
-          <span class="descrip">RADIUS</span>
-          <span class="numb_descrip">2,437.7 KM</span>
-        </div>
-        </div>
-        <div class="temp">
-          <div class="box">
-          <span class="descrip">AVERAGE TEMP.</span>
-          <span class="numb_descrip">430° C</span>
-        </div>
-        </div>
-      </article>
+
+
+
+
+
+        
 
     <script src="index.js" defer></script>
   </body>
