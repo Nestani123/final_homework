@@ -123,6 +123,63 @@
 
 }
 @media all and (min-width: 1440px){
-
+    .headerAndNav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-right: 41px;
+        margin-left: 32px;
+    }
+    .menu-links li{
+        font-size: ;
+    }
+    .option{
+        width: 350px;
+        margin-left: 0;
+        margin-right: 0;
+        cursor: pointer;
+    }
+    .middlePart{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 126px;
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+    .planet{
+        margin-left: 150px;
+        width: 290px;
+        height: 290px;
+    }
+    .textAndOptions{
+        flex-direction: column;
+        margin: 0;
+    }
+    .planetName{
+        font-size: 80px;
+    }
+    .planet_description{
+        margin-top: 45px;
+        text-align: left;
+        width: 350px;
+        font-size: 14px;
+        color: #ffffff80;
+    }
+    .info{
+        margin-top: 55px;
+    }
+    .infocontainer{
+        width: 255px;
+        height: 128px;
+    }
+    .descrip{
+        font-size: 11px;
+    }
+    .numb_descrip{
+        font-size: 40px;
+    }
 }
 

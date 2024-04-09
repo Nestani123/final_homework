@@ -1,20 +1,4 @@
 
-body{
-    min-width: 375px;
-    width: 100%;
-    height: auto;
-    background-color: #070724;
-    background-image: url("../assets/images/background-stars.svg");
-}
-h1,h2,p, li{
-    color: white;
-}
-h1, h2{
-    font-family: Antonio;
-}
-p, li{
-font-family: Spartan;
-}
 
 /*
 header

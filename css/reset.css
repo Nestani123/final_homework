@@ -6,6 +6,24 @@
     font-family: Spartan;
     src: url("../assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
 }
+
+body{
+    min-width: 375px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-color: #070724;
+    background-image: url("../assets/images/background-stars.svg");
+}
+h1,h2,p, li{
+    color: white;
+}
+h1, h2{
+    font-family: Antonio;
+}
+p, li{
+font-family: Spartan;
+}
 *{
     margin: 0;
     padding: 0;
