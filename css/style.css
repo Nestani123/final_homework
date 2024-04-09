@@ -15,6 +15,7 @@ h1, h2{
 p, li{
 font-family: Spartan;
 }
+
 /*
 header
 */
@@ -51,11 +52,18 @@ line-height:10.08px;
     mix-blend-mode: normal;
 }
 .headInfo{
-    font-family: Spartan;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 9px;
+}
+.headInfo h1{
+    font-family: Sparta;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    opacity: .5;
 }
 
 
@@ -75,20 +83,28 @@ Main part of the body
     flex-direction: column;
 }
 .planet{
-    margin: 35%;
+    margin-top: 95px;
+    margin-left: 35%;
+    margin-bottom: 95px;
     width: 111px;
     height: 111px;
 }
-.options{
+.planetName{
+    font-family: Antonio;
+    font-style: normal;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+.options, .number, span{
     display: none;
 }
 
 .option{
     margin: 24px 20px 0;
 }
-.number, span{
-    display: none;
-}
+
 .rectangle{
     width: 80px;
     height: 4px;
