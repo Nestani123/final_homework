@@ -4,7 +4,7 @@
 header
 */
 
-.headerAndNav{
+.headerAndNavigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ line-height:10.08px;
 .headMenu{
     display: none;
 }
-.mainHr{
+.mainLine{
     background-color: #FFF;
     opacity: .2;
     mix-blend-mode: normal;
@@ -64,7 +64,7 @@ Main part of the body
     justify-content: space-around;
     padding: 20px 24px 20px 24px;
 }
-.middlePart{
+.mainPart{
     justify-content: center;
     align-items: center;
     flex-direction: column;

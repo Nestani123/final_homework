@@ -1,5 +1,5 @@
 @media all and (min-width: 768px){
-    .headerAndNav{
+    .headerAndNavigation{
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -19,12 +19,12 @@
         margin-bottom: 20px;
         gap: 20px;
     }
-    .mainHr{
+    .mainLine{
         background-color: #FFF;
         opacity: .2;
         mix-blend-mode: normal;
     }
-    .headOptions{
+    .headVar{
         display: none;
     }
     .headInfo{
@@ -60,7 +60,7 @@
     .rectangle{
         display: none;
     }
-    .middlePart{
+    .mainPart{
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -123,7 +123,7 @@
 
 }
 @media all and (min-width: 1440px){
-    .headerAndNav{
+    .headerAndNavigation{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -139,7 +139,7 @@
         margin-right: 0;
         cursor: pointer;
     }
-    .middlePart{
+    .mainPart{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
