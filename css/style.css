@@ -35,6 +35,9 @@ line-height:10.08px;
     opacity: .2;
     mix-blend-mode: normal;
 }
+.textAndOption .headInfo{
+    display: none;
+}
 .headInfo{
     display: flex;
     justify-content: center;
