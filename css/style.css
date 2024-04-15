@@ -27,6 +27,12 @@ letter-spacing: 1.93px;
 font-weight: 700;
 line-height:10.08px;
 }
+.burger-btn.is-active:before {
+	transform: rotate(-45deg) translate(-8px, 6px);
+}
+.burger-btn.is-active:after {
+	transform: rotate(45deg) translate(-9px, -8px);
+}
 .headMenu{
     display: none;
 }
